@@ -25,7 +25,7 @@ jobs:
                     sudo dpkg -i sbt-$SBT_VERSION.deb
                     rm sbt-$SBT_VERSION.deb
                     sudo apt-get update
-                    sudo apt-get install -y sbt python2-pip git
+                    sudo apt-get install -y sbt python3-pip git
                     pip install awscli
                     sudo apt-get clean && sudo apt-get autoclean
       - checkout
