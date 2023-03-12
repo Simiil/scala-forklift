@@ -1,4 +1,4 @@
-`package` com.liyaos.forklift.slick.tests.unittests
+package com.liyaos.forklift.slick.tests.unittests
 
 object CommandTestsPreview {
 
