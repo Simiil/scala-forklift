@@ -1,7 +1,7 @@
 val repoKind = SettingKey[String]("repo-kind",
   "Maven repository kind (\"snapshots\" or \"releases\")")
 
-lazy val slickVersion = "3.3.2"
+lazy val slickVersion = "3.4.1"
 
 lazy val scala212 = "2.12.11"
 lazy val scala213 = "2.13.1"
@@ -16,7 +16,7 @@ lazy val coreDependencies = libraryDependencies ++= List(
 lazy val slickDependencies = List(
   "com.typesafe.slick" %% "slick" % slickVersion,
   "com.typesafe.slick" %% "slick-codegen" % slickVersion,
-  "io.github.nafg" %% "slick-migration-api" % "0.7.0",
+  "io.github.nafg.slick-migration-api" %% "slick-migration-api" % "0.9.0",
   "org.scala-lang.modules" %% "scala-collection-compat" % "2.0.0"
 )
 
@@ -70,6 +70,7 @@ lazy val commonSettings = Seq(
 // https://stackoverflow.com/questions/48008343/sbt-test-does-not-work-for-spark-test
 // https://issues.apache.org/jira/browse/DERBY-6648
 Test / testOptions += Tests.Setup(() => System.setSecurityManager(null))
+
 
 lazy val root = Project(
   "scala-forklift", file(".")).settings(
