@@ -1,4 +1,4 @@
-package com.liyaos.forklift.slick.tests.unittests
+`package` com.liyaos.forklift.slick.tests.unittests
 
 object CommandTestsPreview {
 
@@ -20,7 +20,7 @@ ${"\t"}[create table "users" ("id" INTEGER NOT NULL PRIMARY KEY,"first" VARCHAR(
 NOT YET APPLIED MIGRATIONS PREVIEW:
 
 2 DBIOMigration:
-${"\t"}CommandTests.profile.api.queryInsertActionExtensionMethods[CommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](CommandTests.UsersV2).++=(scala.package.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
+${"\t"}CommandTests.profile.api.queryInsertActionExtensionMethods[CommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](CommandTests.UsersV2).++=(scala.`package`.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
 
 --------------------------------------------------------------------------------
 """)
@@ -43,7 +43,7 @@ ${"\t"}[create table `users` (`id` INTEGER NOT NULL PRIMARY KEY,`first` VARCHAR(
 NOT YET APPLIED MIGRATIONS PREVIEW:
 
 2 DBIOMigration:
-${"\t"}MySQLCommandTests.profile.api.queryInsertActionExtensionMethods[MySQLCommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](MySQLCommandTests.UsersV2).++=(scala.package.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
+${"\t"}MySQLCommandTests.profile.api.queryInsertActionExtensionMethods[MySQLCommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](MySQLCommandTests.UsersV2).++=(scala.`package`.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
 
 --------------------------------------------------------------------------------
 """)
@@ -66,7 +66,7 @@ ${"\t"}[create table "users" ("id" INTEGER NOT NULL PRIMARY KEY,"first" VARCHAR(
 NOT YET APPLIED MIGRATIONS PREVIEW:
 
 2 DBIOMigration:
-${"\t"}DerbyCommandTests.profile.api.queryInsertActionExtensionMethods[DerbyCommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](DerbyCommandTests.UsersV2).++=(scala.package.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
+${"\t"}DerbyCommandTests.profile.api.queryInsertActionExtensionMethods[DerbyCommandTests.this.UsersV2#TableElementType, [+A]Seq[A]](DerbyCommandTests.UsersV2).++=(scala.`package`.Seq[com.liyaos.forklift.slick.tests.unittests.UsersRow](UsersRow(1, "Chris", "Vogt"), UsersRow(2, "Yao", "Li")))
 
 --------------------------------------------------------------------------------
 """)
